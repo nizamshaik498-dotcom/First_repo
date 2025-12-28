@@ -10,3 +10,4 @@ elif B>=A:
     print(B,"Greater than A value")
 
 #can be used to compare marks between two students
+
