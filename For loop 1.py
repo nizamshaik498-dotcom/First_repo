@@ -2,5 +2,5 @@
 
 Num=int(input("Enter any value: "))
 for i in range(1, 11):
-    print(f"{Num} x {i} = {Num*i}")
-    
+    print(f"{Num} x {i} = {Num*i}")     #prints multiplication table of given number
+
