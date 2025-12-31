@@ -3,9 +3,9 @@
 def calculate_area():
     length = float(input("Enter the length of the rectangle: "))
     breadth = float(input("Enter the breadth of the rectangle: "))
-    return length, breadth
+    return length, breadth      #returning length and breadth
 
-length, breadth = calculate_area()
+length, breadth = calculate_area()  #calling the function and storing returned values
 print(f"The length of the rectangle is: {length}")          #shows the length
 print(f"The breadth of the rectangle is: {breadth}")        #shows the breadth
 print(f"The area of the rectangle is: {length * breadth}")  #shows the area
