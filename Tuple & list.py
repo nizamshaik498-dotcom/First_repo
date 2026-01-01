@@ -19,3 +19,5 @@ nums=[10,20,30,40,50]
 t=tuple(nums)           #converting list to tuple
 print(t)
 print(type(t))
+print(t[0])
+print(t[-1])
