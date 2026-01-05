@@ -3,7 +3,7 @@
 print("WELCOME  TO  MY  STORE")
 products={"Shirts":500,
           "Pants":700,
-          "Perfumes":850,
+          "Perfumes":850,                           #created dictionary and stored my own values
           "Wallet":500,
           "Shoes":1200,
           "Belts":600,
