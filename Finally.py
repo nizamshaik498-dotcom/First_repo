@@ -9,7 +9,7 @@ try:                                                        #used try block to t
     print("Your answer is:",result)
 except ZeroDivisionError:                                  #used except block to handle the exception   
     print("Sorry! cant divide with zero")
-except ValueError:                                        
+except ValueError:                                         #used another except block to handle another exception
     print("please enter value in integer type")
 finally:
     print("Thank you for using this mini divisable calculator")
