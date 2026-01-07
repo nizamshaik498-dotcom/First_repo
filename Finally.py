@@ -11,7 +11,7 @@ except ZeroDivisionError:                                  #used except block to
     print("Sorry! cant divide with zero")
 except ValueError:                                         #used another except block to handle another exception
     print("please enter value in integer type")
-finally:
+finally:                                                   #used finally block to execute the code at last
     print("Thank you for using this mini divisable calculator")
     
 
