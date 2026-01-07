@@ -2,7 +2,7 @@
 
 print("A mini calculator which performs division operation:")
 
-try:
+try:                                                        #used try block to take input from user
     num1=int(input("Enter first value: "))
     num2=int(input("Enter second value: "))
     result=(num1/num2)
@@ -17,4 +17,3 @@ finally:
 
 
 
-    
