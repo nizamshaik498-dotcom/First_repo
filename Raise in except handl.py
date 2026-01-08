@@ -2,7 +2,7 @@
 
 try:                                                                #used try block to check for exception
     num=int(input("Enter any value: "))
-    if num<=0:
+    if num<=0:                                                      #used if statement to check condition
         raise ValueError("Enter value greater than zero")
     print(num**2)
 except ValueError as e:
