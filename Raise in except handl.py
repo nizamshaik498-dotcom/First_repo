@@ -1,6 +1,6 @@
 #program made using exception handling statements and using (raise) and raising an eception
 
-try:
+try:                                                                #used try block to check for exception
     num=int(input("Enter any value: "))
     if num<=0:
         raise ValueError("Enter value greater than zero")
