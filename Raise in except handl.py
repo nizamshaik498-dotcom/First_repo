@@ -4,6 +4,6 @@ try:                                                                #used try bl
     num=int(input("Enter any value: "))
     if num<=0:                                                      #used if statement to check condition
         raise ValueError("Enter value greater than zero")
-    print(num**2)
+    print(num**2)                                                   #used raise statement to raise an exception
 except ValueError as e:
     print("Error: ",e)
