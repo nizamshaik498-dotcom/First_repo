@@ -6,4 +6,4 @@ for index,value in enumerate(Fruits ,start=1):                                  
 #  Another way to write the same code
 print("Another way to write the same code")
 for index,value in enumerate(Fruits):                                               #prints index number starting from 0
-    print(index,value)
+    print(index,value)                                                              #prints index number and value stored in the list
