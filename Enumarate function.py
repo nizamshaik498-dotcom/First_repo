@@ -5,5 +5,5 @@ for index,value in enumerate(Fruits ,start=1):                                  
     print(index,value)
 #  Another way to write the same code
 print("Another way to write the same code")
-for index,value in enumerate(Fruits ,start=1):
+for index,value in enumerate(Fruits):
     print(index,value)
