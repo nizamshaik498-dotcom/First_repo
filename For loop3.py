@@ -10,4 +10,4 @@ for even in num:
 num=[1,2,3,4,5]
 for odd in num:
     if odd %2!=0:                              #used if condition to check odd numbers                                  
-        print("These are odd num:",odd)
+        print("These are odd num:",odd)        #prints only odd numbers
