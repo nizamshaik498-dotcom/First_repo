@@ -5,7 +5,7 @@ Even_count=0                            #used even count variable to count even 
 Odd_count=0                             #used odd count variable to count odd numbers
 for n in nums:
     if n%2==0:
-        Even_count +=1
+        Even_count +=1                  #incrementing even count by 1
     else:
         Odd_count +=1
 print("Even count: ",Even_count)
