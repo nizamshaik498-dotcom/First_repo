@@ -12,5 +12,5 @@ while attempts>0:                                       #used while loop to allo
         attempts= attempts-1                            #decrementing attempts if the pin is wrong
         print("Wrong PIN!")
         print("Attempts Remaining: ",attempts)
-    if attempts==0:
+    if attempts==0:                                      #used if block to check if attempts are over
         print("Phone Locked!!!")
