@@ -9,7 +9,7 @@ while attempts>0:                                       #used while loop to allo
         print("Phone Unlocked")
         break
     else:
-        attempts= attempts-1
+        attempts= attempts-1                            #decrementing attempts if the pin is wrong
         print("Wrong PIN!")
         print("Attempts Remaining: ",attempts)
     if attempts==0:
