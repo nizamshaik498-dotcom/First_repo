@@ -8,7 +8,7 @@ while attempts>0:                                                       #used wh
         print("You found the special number🥳")
         break                                                           #used break statement to exit the loop if user finds the special number
     else:
-        attempts=attempts-1
+        attempts=attempts-1                                             #decrementing attempts if user fails to find the special number
         print("Ahh its not special🥺")
         print("Attempts Left: ",attempts)
         if attempts==0:
