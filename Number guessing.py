@@ -2,7 +2,7 @@
 
 num=7
 attempts=3
-while attempts>0:
+while attempts>0:                                                       #used while loop for multiple attempts
     value=int(input("Enter the special number: "))
     if value==7:
         print("You found the special number🥳")
@@ -16,4 +16,3 @@ while attempts>0:
 
 
 
-            
