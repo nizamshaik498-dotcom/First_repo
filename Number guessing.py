@@ -10,7 +10,7 @@ while attempts>0:                                                       #used wh
     else:
         attempts=attempts-1                                             #decrementing attempts if user fails to find the special number
         print("Ahh its not special🥺")
-        print("Attempts Left: ",attempts)
+        print("Attempts Left: ",attempts)                               #printing remaining attempts
         if attempts==0:                                              #checking if attempts are over                                 
             print("Game Over❌❌")
 
