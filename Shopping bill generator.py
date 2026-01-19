@@ -3,7 +3,7 @@
 product=input("Enter product name: ")
 price=int(input("Enter the price: "))
 quantity=int(input("Enter the quantity: "))
-total=price*quantity
+total=price*quantity                                        #calculating total amount
 
 if price>=1000:
     print("Total amount: ",price*quantity)
