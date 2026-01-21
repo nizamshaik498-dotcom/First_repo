@@ -1,7 +1,7 @@
 #program created by using if, elif, else statements (generates exam results ).
 
 print("----------Board Exams Result Generator----------")
-name=input("Enter your name: ")
+name=input("Enter your name: ")                                         #takes name input from user
 m1=int(input("Enter 1st subject marks: "))
 m2=int(input("Enter 2nd subject marks: "))                              #takes marks input from user
 m3=int(input("Enter 3rd subject marks: "))
