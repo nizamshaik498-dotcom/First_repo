@@ -3,7 +3,7 @@
 print("----------Board Exams Result Generator----------")
 name=input("Enter your name: ")
 m1=int(input("Enter 1st subject marks: "))
-m2=int(input("Enter 2nd subject marks: "))
+m2=int(input("Enter 2nd subject marks: "))                              #takes marks input from user
 m3=int(input("Enter 3rd subject marks: "))
 total=m1+m2+m3
 average=total/3
