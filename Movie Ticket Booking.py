@@ -14,7 +14,7 @@ else:
 total_amount=price_per_ticket*tickets                     #calculating total amount
 
 if tickets>5:
-    discount=total_amount*0.10
+    discount=total_amount*0.10                            #
 else:
     dicount=0
 
