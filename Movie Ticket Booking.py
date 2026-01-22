@@ -20,7 +20,7 @@ else:
 
 final_amount=total_amount-discount
 
-print("-----Movie Ticket Bill-----")
+print("-----Movie Ticket Bill-----")                            #whole bill generation
 print("Customer Name: ",name)
 print("Ticket Price: ",price_per_ticket)
 print("Number Of tickets: ",tickets)
