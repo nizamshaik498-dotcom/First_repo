@@ -1,6 +1,6 @@
 #program created using if, else, elif and string operations which checks the password strength entered by the user.
 
-key=input("Enter Password: ")
+key=input("Enter Password: ")                                           #takes password input in both numbers and letters
 length=6
 if len(key)<6:
     print("Weak Password")
