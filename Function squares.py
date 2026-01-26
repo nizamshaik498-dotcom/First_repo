@@ -3,7 +3,7 @@
 val1=int(input("Enter 1st number: ")) #input from user
 val2=int(input("Enter 2nd number: ")) #input from user
 def value():                          #function created
-    num=val1*val1+val2*val2
+    num=val1*val1+val2*val2           #calculating square of numbers
     return num
 out=value()
 print("Output: ",out) 
