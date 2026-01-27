@@ -1,6 +1,6 @@
 #program created using string methods and converts the user input to title case and counts how many vowels are in it.
 
-prompt=input("Enter any sentence: ")
+prompt=input("Enter any sentence: ")                        #takes input from user
 print("Your Input Is: ",prompt)
 print("Coverted to title case: ",prompt.title())
 vowels=(prompt.lower().count('a')+
