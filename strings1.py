@@ -2,7 +2,7 @@
 
 prompt=input("Enter any sentence: ")                        #takes input from user
 print("Your Input Is: ",prompt)
-print("Coverted to title case: ",prompt.title())
+print("Coverted to title case: ",prompt.title())            #coverts to title case
 vowels=(prompt.lower().count('a')+
         prompt.lower().count('e')+
         prompt.lower().count('i')+
