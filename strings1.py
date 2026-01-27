@@ -8,4 +8,4 @@ vowels=(prompt.lower().count('a')+                          #counts vowels in th
         prompt.lower().count('i')+
         prompt.lower().count('o')+
         prompt.lower().count('u'))
-print("Vowels Found: ",vowels)
+print("Vowels Found: ",vowels)                              #prints number of vowels found
