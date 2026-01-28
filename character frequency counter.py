@@ -8,7 +8,7 @@ space=0
 for n in query:                             #iterating through each character in the input
     if n.islower():                         #checking for lowercase letters
         lower+=1
-    elif n.isupper():
+    elif n.isupper():                       #checking for uppercase letters 
         upper+=1
     elif n.isdigit():
         digit+=1
