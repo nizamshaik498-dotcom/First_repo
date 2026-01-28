@@ -1,7 +1,7 @@
 #program created using string methods .(character frequency counter).
 
 query=input("Enter any sentence: ")         #takes input from user
-lower=0
+lower=0                                     #initializing counters
 upper=0
 digit=0
 space=0
