@@ -1,5 +1,6 @@
 #program created using list which stores the values given by user in it and shows largest, smallest and average of the values
-num=list(map(int,input("Enter numbers: ").split())) 
+
+num=list(map(int,input("Enter numbers: ").split())) #takes input from user and store in the list
 largest=max(num)
 smallest=min(num)
 average=sum(num)/len(num)
