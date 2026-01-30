@@ -1,6 +1,6 @@
 #program created using if statements and ask the user to enter the answers for the questions.
 
-score=0
+score=0                                             #initializing score variable
 ans1=input("Who Is The CEO Of Tesla/X/Spacex: ")    #asking user for input
 ans2=input("What Is The Abbrevation Of CEO: ")
 ans3=input("What Is Trade ?: ")
