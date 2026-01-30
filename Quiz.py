@@ -1,4 +1,4 @@
-#program created using if else statements and ask the user to enter the answers for the questions.
+#program created using if statements and ask the user to enter the answers for the questions.
 
 score=0
 ans1=input("Who Is The CEO Of Tesla/X/Spacex: ")
