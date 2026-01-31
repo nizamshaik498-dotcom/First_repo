@@ -1,5 +1,5 @@
 #program created using dictionary to store contacts
-name=input("Enter name: ")
+name=input("Enter name: ")                                                          #input name to search in contacts
 contacts={"nizam":154251,"althaf":567423,"wahid":654786,"mike":367399}
 name=name.lower()
 if name in contacts:
