@@ -1,6 +1,6 @@
 #program created using list and for loop with if else statements
 
-nums=list(map(int,input("Enter numbers: ").split()))
+nums=list(map(int,input("Enter numbers: ").split()))        #list of numbers from user
 even=0
 odd=0
 for num in nums:
