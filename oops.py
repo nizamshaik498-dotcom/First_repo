@@ -1,6 +1,6 @@
 #program made using class and object (oops)
 
-class student:
+class student:                                             #class name
     def get(self,name,age):
         self.name=name
         self.age=age
