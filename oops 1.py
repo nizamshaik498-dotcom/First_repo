@@ -4,7 +4,7 @@ class student:                                  #class name
     def __init__(self,name,age):                #constructor with parameters
         self.name=name
         self.age=age
-    def display(self):
+    def display(self):                          #method to display student details
         print("My name is: ",self.name)
         print("My age is: ",self.age)
 stud=student("Max",20)
