@@ -7,6 +7,6 @@ class student:                                             #class name
     def display(self):                                     #method to display data                 
         print("My name is :",self.name)
         print("My age is: ",self.age)
-stud1=student()
+stud1=student()                                           #object creation
 stud1.get("Mike",20)
 stud1.display()
