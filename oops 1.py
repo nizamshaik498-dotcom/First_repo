@@ -1,7 +1,7 @@
 #program created using class and object (oops) using a constructor (__init__ method)
 
 class student:                                  #class name
-    def __init__(self,name,age):
+    def __init__(self,name,age):                #constructor with parameters
         self.name=name
         self.age=age
     def display(self):
