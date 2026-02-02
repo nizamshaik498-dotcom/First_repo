@@ -7,5 +7,5 @@ class student:                                  #class name
     def display(self):                          #method to display student details
         print("My name is: ",self.name)
         print("My age is: ",self.age)
-stud=student("Max",20)
+stud=student("Max",20)                          #object creation with arguments
 stud.display()
