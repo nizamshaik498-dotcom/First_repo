@@ -1,7 +1,7 @@
 #program created using constructor(parameterized).
 
 class Student:                                              #class name
-    def __init__(self,name,age):
+    def __init__(self,name,age):                            #parameterized constructor
         self.name=name
         self.age=age
         print("This is parameterized constructor")
