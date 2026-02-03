@@ -8,7 +8,7 @@ class Student:                                              #class name
     def display(self):                                      #method to display                               
         print("My name is: ",self.name)
         print("My age is: ",self.age)
-student=Student("Max",30)
+student=Student("Max",30)                                   #object creation
 student.display()
 
 
