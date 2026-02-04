@@ -1,5 +1,5 @@
 #python program created using single inheritance.
-class Animal:
+class Animal:                           #class Animal
     def speak(self):
         print("Animal Sound")
 class Dog(Animal):
