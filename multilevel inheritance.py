@@ -1,6 +1,6 @@
 #program created using multilevel inheritance
 
-class Animal:                           
+class Animal:                                   #base class
     def speak(self):                   
         print("Animal Sound")
 class Dog(Animal):                                 
