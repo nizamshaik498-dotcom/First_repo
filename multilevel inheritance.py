@@ -9,6 +9,7 @@ class Dog(Animal):                              #derived class inheriting from b
 class puppy(Dog):                                  #derived class inheriting from derived class
     def weep(self):                                #method of derived class
         print("Weeping sound")
-d=Dog()
+d=puppy()
 d.speak()
 d.bark()
+d.weep()
