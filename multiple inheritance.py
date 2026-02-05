@@ -4,9 +4,9 @@ class calculation1:                                             #base class 1
     def summation(self,a,b):                                    #base class 2
         return a+b
 class calculation2:                                             #base class 2
-    def subtraction(self,a,b):
+    def subtraction(self,a,b):                                  
         return a-b
-class calculation3:
+class calculation3:                                             #base class 3       
     def multiplication(self,a,b):
         return a*b
 class derived(calculation1,calculation2,calculation3):
