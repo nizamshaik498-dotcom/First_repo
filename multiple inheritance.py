@@ -1,6 +1,6 @@
 #program created using multiple inheritance.
 
-class calculation1:
+class calculation1:                                             #base class 1
     def summation(self,a,b):
         return a+b
 class calculation2:
