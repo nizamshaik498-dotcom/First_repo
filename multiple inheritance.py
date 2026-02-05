@@ -13,7 +13,7 @@ class derived(calculation1,calculation2,calculation3):          #derived class
     def division(self,a,b):
         return a/b
     
-c=derived()
+c=derived()                                                     #object of derived class
 print("The summation value: ",c.summation(10,20))
 print("The subtraction value: ",c.subtraction(10,20))
 print("The multiplication value: ",c.multiplication(10,20))
