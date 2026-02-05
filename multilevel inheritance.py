@@ -4,7 +4,7 @@ class Animal:                                   #base class
     def speak(self):                            #method of base class
         print("Animal Sound")
 class Dog(Animal):                              #derived class inheriting from base class
-    def bark(self):                     
+    def bark(self):                             #method of derived class
         print("Barking sound")
 d=Dog()
 d.speak()
