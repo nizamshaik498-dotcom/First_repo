@@ -6,7 +6,7 @@ class ceo:                                          #base class
 class manager(ceo):                                 #derived class of ceo class
     def managermethod(self):                        #method of manager class
         print("I am manager")
-class employee1(manager,ceo):
+class employee1(manager,ceo):                       #derived class of manager and ceo class          
     def employee1method(self):
         print("I am employee 1")
 emp1=employee1()
