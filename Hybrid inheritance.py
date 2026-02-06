@@ -1,0 +1,15 @@
+#program created using hybrid inheritance.
+
+class ceo:
+    def ceomethod(self):
+        print(("I am the ceo"))
+class manager(ceo):
+    def managermethod(self):
+        print("I am manager")
+class employee1(manager,ceo):
+    def employee1method(self):
+        print("I am employee 1")
+emp1=employee1()
+emp1.ceomethod()
+emp1.managermethod()
+emp1.employee1method()
