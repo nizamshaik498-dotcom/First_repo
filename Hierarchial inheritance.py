@@ -1,9 +1,9 @@
 #program created using hierarchial inheritance.
 
 class manager:                                  #base class
-    def managermethod(self):
+    def managermethod(self):                    #method of base class
         print("I am manager")
-class employee1(manager):
+class employee1(manager):                       #derived class1               
     def employee1method(self):
         print("I am employee1")
 class employee2(manager):
