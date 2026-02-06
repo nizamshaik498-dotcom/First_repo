@@ -1,7 +1,7 @@
 #program created using hybrid inheritance.
 
 class ceo:                                          #base class
-    def ceomethod(self):
+    def ceomethod(self):                            #method of ceo class
         print(("I am the ceo"))
 class manager(ceo):
     def managermethod(self):
