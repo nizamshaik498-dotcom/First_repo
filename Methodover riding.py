@@ -21,7 +21,7 @@ c1.show()
 c1.maxspeed()
 c1.gearsystem()
 
-c2=vehicle("Audi","R8",50000000)
+c2=vehicle("Audi","R8",50000000)                                            #creating an object of the vehicle class                                  
 c2.show()
 c2.maxspeed()
 c2.gearsystem()
