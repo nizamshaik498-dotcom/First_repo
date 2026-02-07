@@ -14,7 +14,7 @@ class vehicle:                                                              #bas
 class car(vehicle):                                                         #derived class                                                 
         def maxspeed(self):                                                 #overriding the maxspeed method of the base class
             print("The maxspeed is over 410")
-        def gearsystem(self):
+        def gearsystem(self):                                               #overriding the gearsystem method of the base class
             print("Automatic gearsystem")
 c1=car("BMW","M5",90000000)
 c1.show()
