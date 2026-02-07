@@ -11,7 +11,7 @@ class vehicle:                                                              #bas
         print("The max speed is over 250")
     def gearsystem(self):                                                   #method to show the gear system of the vehicle
         print("Manual gear system")
-class car(vehicle):
+class car(vehicle):                                                         #derived class                                                 
         def maxspeed(self):
             print("The maxspeed is over 410")
         def gearsystem(self):
