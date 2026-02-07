@@ -1,6 +1,6 @@
 #Program created using class polymorphism
 
-class BMW:
+class BMW:                                                      #base class
     def car(self):
         print("Byrische Motoren Worke")
     def model(self):
