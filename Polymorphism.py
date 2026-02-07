@@ -8,7 +8,7 @@ class BMW:                                                      #base class
 class Lamborghini:                                              #derived class                                 
     def car(self):                                              #method of derived class
         print("The bull of cars")
-    def model(self):
+    def model(self):                                            #method of derived class                                            
         print("Aventador")
 ob=BMW()
 ob1=Lamborghini()
